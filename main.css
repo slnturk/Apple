@@ -1,3 +1,81 @@
+body {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.white-header {
+    color: white;
+}
+
+.min-width {
+    min-width: 340px;
+}
+
 .hediye-section {
     height: 692px;
+}
+
+.iphone-16-section {
+    height: 692px;
+}
+
+.promo-section {
+    height: 581px;
+}
+
+header {
+    background: rgb(255, 255, 255, .8);
+}
+
+.header-content {
+    height: 44px;
+    width: 1024px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header .col {
+    text-align: center;
+    align-content: center;
+}
+
+.header-text {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+button {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.btn.border-primary {
+    color: #0d6efd;
+}
+
+.btn.border-light {
+    color: white;
 }
