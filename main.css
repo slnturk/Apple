@@ -11,6 +11,11 @@ body {
     min-width: 340px;
 }
 
+footer .table-group-divider {
+    border-top: 1px solid rgb(0, 0, 0, .16);
+    padding: 17px 0 11px;
+}
+
 .hediye-section {
     height: 692px;
 }
@@ -27,12 +32,17 @@ header {
     background: rgb(255, 255, 255, .8);
 }
 
+footer {
+    padding: 15px 0;
+    background: rgb(245, 245, 247);
+}
+
 .header-content {
     height: 44px;
     width: 1024px;
 }
 
-a {
+header a {
     color: black;
     text-decoration: none;
 }
@@ -78,4 +88,31 @@ button {
 
 .btn.border-light {
     color: white;
+}
+
+.footer-açıklama {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, .56);
+}
+
+ul {
+    list-style-type:none;
+    padding-left: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, .72);
+}
+
+li:first-child {
+    color: rgb(0, 0, 0, .88);
+    font-weight: 600;
+}
+
+.footer-content {
+    width: 1024px;
+}
+
+footer li {
+    margin-bottom: .8em;
 }
